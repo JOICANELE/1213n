@@ -32,7 +32,6 @@ element.style {
     color: #868686;
     font-weight: bold;
     padding: 10px 20px;
-    margin-right: 20px;
     text-align: center;
     border-radius: 50px;
     letter-spacing: 0.2em;
@@ -51,6 +50,29 @@ element.style {
             color: red;
             text-decoration: underline;
         }
+    }
+}
+
+.plan_btn{
+    background-color: #ffdd3d;
+    padding: 4px 96px;
+    border-radius: 30px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #000;
+    letter-spacing: 0.5em;
+    border: 3px solid #ffdd3d;
+    display: inline-block;
+    position: relative;
+    &:hover{
+        border-color: #fff;
+        color: #000;
+    }
+    &::before{
+        content: "→";
+        position: absolute;
+        right: 10px;
+        top: 3px;
     }
 }
 
