@@ -4,10 +4,25 @@
 
 @layer utilities {}
 
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@200&display=swap');
+
+@font-face {
+	font-family: 'AbelRegular';
+           src: url('fonts/abel-regular-webfont.eot');
+           src: url('fonts/abel-regular-webfont.eot?#iefix') format('embedded-opentype'),  url('fonts/abel-regular-webfont.woff') format('woff'),  url('fonts/abel-regular-webfont.ttf') format('truetype'),  url('fonts/abel-regular-webfont.svg#AbelRegular') format('svg');
+     }
+
+
+
 element.style {
 }
 .uk-link-toggle:hover .uk-link, .uk-link:hover, a:hover {
     text-decoration: none;}
+
+#header_ui .uk-active{
+    color: #007cc1;
+}
+
 
 .logo_text{
     border: 1px solid #551919;
@@ -199,6 +214,19 @@ input,textarea{
       }
     }
   }
+
+body{
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 800;
+
+}
+
+.txtJL{
+    font-family: "AbelRegular" , sans-serif;
+    font-weight: normal;
+}
+
+
 @media (min-width: 1024px){
     #offcanvas-flip{
         display: block;
